@@ -3,7 +3,6 @@ import useSound from "use-sound";
 import play from "../sounds/play.mp3";
 import correct from "../sounds/correct.mp3";
 import wrong from "../sounds/wrong.mp3";
-import wait from "../sounds/wait.mp3";
 
 const Trivia = ({ data, setStop, questionNumber, setQuestionNumber }) => {
   const [question, setQuestion] = useState(null);
